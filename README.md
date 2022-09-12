@@ -31,3 +31,7 @@ https://nodejs.org/en/download/package-manager/
 
 ## Questions
 
+
+## Contributors
+Krista Francis, Joshua Ward, Michael Bishop, Andrea Jared, Julia Coronado, Anthony Winston
+
