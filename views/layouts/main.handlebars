@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Into the looking glass</title>
+  <link rel="stylesheet" href="/stylesheets/style.css">
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"/>
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+      integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
+      crossorigin="anonymous"
+    />
+
+</head>
+
+<body>
+  <div class="wrapper">
+  <header>
+    <header class="jumbotron bg-dark text-white bg-gradient mb-0">
+      <navclass="navbar">
+        <span class="navbar-text">
+            <span id="homepage-btn"><i class="fa fa-home"></i><a href="/"> Homepage</a></span>
+  
+               {{#if loggedIn}}
+              <a id="dashboard" href="/dashboard">Dashboard</a>
+              <button id="logout" class="btn-no-style">Logout</button>
+              {{else}}
+              </br>
+              </br>
+              <p id="login-btn">
+              <a href="/login">Login</a>
+              </p>
+              {{/if}}
+      </span>
+    </nav>
+    <!--Our app title and the slogan underneath, maybe we put ome sort of icon next to or after the title where the dots are.../-->
+
+      <h1 class="display-3">Between the looking glass...</h1>
+      <!--Slogan goes here and will be rendered under ^ -->
+      <p class="lead"></p>
+  
+  </br>
+  
+
+  </header>
+  <main>
+    {{{ body }}}
+     <script src="add scripts here"></script>
+  <script src="add scripts here"></script>
+  </main>
+
+  {{#if loggedIn}}
+  <script src="javascript\logout.js"></script>
+  {{/if}}
+
+</body>
+
+
+<footer>
+  <h4 class="text-center p-3 mb-2 bg-secondary text-white">Thank you for being valued member of our community!</h4>
+</footer>
+
+</div>
+
+</html>
