@@ -9,5 +9,29 @@
     "handlebars": "^4.7.7",
     "mysql2": "^2.3.3",
     "sequelize": "^6.21.6"
-  }
+  },
+  "scripts": {
+    "test": "jest",
+    "start": "node server.js",
+    "seeds": "node seeds/index.js",
+    "watch": "nodemon server.js"
+
+  },
+  "name": "between-the-looking-glass",
+  "description": "## Description",
+  "version": "1.0.0",
+  "main": "server.js",
+  "devDependencies": {
+    "jest": "^25.1.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kristafrancis/between-the-looking-glass.git"
+  },
+  "author": "Krista Francis, Michael Bishop, Joshua Ward, Julia Coronado, Anthony Winston, Andrea Jared",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kristafrancis/between-the-looking-glass/issues"
+  },
+  "homepage": "https://github.com/kristafrancis/between-the-looking-glass#readme"
 }
