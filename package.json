@@ -15,7 +15,6 @@
     "start": "node server.js",
     "seeds": "node seeds/index.js",
     "watch": "nodemon server.js"
-
   },
   "name": "between-the-looking-glass",
   "description": "## Description",
