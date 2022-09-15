@@ -1,20 +1,12 @@
-.navbar {
-    background-color: black;
-}
+#homepage-btn, #glossary-btn, #blog-id {
 
-
-#homepage-btn, #glossary-btn, #blog-id{
-    display: flex;
-    justify-content: space-between;
+    margin: 75px;
     align-items: center;
-    margin-left:auto;
-    margin-right:auto;
     
 
-}
+} 
 
-span > a {
-
-    color: white;
-
+#logout {
+    padding: 3px;
+    margin: 50px;
 }
