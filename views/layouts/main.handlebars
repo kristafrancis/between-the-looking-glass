@@ -4,8 +4,13 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<<<<<<< HEAD:views/main.handlebars
   <title>Between the looking glass</title>
   <link rel="stylesheet" href="/stylesheets/style.css">
+=======
+  <title>Into the looking glass</title>
+  <link rel="stylesheet" href="./stylesheets/style.css">
+>>>>>>> 6974602ed191bcacc091ea4465829c862d22193e:views/layouts/main.handlebars
   <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
     <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
     <link
@@ -22,11 +27,15 @@
 
 <body>
   <div class="wrapper">
-  <header>
+  
     <header class="jumbotron bg-dark text-white bg-gradient mb-0">
-      <navclass="navbar">
-        <span class="navbar-text">
+      <nav class="navbar">
+        <span class="navbar-btns">
             <span id="homepage-btn"><i class="fa fa-home"></i><a href="/"> Homepage</a></span>
+            <span id="glossary-btn"><i class="fa fa-home"></i><a href="/glossary"> Glossary</a></span>
+            <span id="blog-btn"><i class="fa fa-home"></i><a href="/blog"> Blog</a></span>
+  
+  
   
                {{#if loggedIn}}
               <a id="dashboard" href="/dashboard">Dashboard</a>
@@ -44,7 +53,7 @@
 
       <h1 class="display-3">Between the looking glass...</h1>
       <!--Slogan goes here and will be rendered under ^ -->
-      <p class="lead"></p>
+      <p class="slogan"></p>
   
   </br>
   
