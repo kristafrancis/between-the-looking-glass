@@ -1,0 +1,14 @@
+<div class="blog-comments">
+    <!--make sure "this" matches or find substitution-->
+  {{#each this}}
+  <section class="comments">
+    <div class="meta">
+        <!--use date fns to format date if needed, match up username with blog posts-->
+      {{user.username}} on {{format_date created_at}}
+    </div>
+    <div class="text">
+      {{comment_text}}
+    </div>
+  </section>
+  {{/each}}
+</div>
