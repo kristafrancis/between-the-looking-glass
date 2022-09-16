@@ -14,3 +14,11 @@
     </br>
     <p class="text-center text-light bg-dark">You are at the Homepage!</p>
 </div>
+
+<ol class="post-list">
+  {{#each posts as |post|}}
+  <li>
+    {{> post-info post }}
+  </li>
+  {{/each}}
+</ol>
