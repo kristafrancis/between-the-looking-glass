@@ -1,12 +1,30 @@
-#homepage-btn, #glossary-btn, #blog-id {
+/* Links*/
+
+#homepage-btn, #glossary-btn, #post-id {
 
     margin: 75px;
     align-items: center;
     
 
-} 
+}  
+/* Login and log out buttons*/
 
 #logout {
     padding: 3px;
     margin: 50px;
+    float: right;
+}
+#login-btn {
+
+padding: 3px;
+    margin: 50px;
+    float: right;
+}
+
+/* .card {
+    
+} */
+.post-header {
+    text-align: center;
+    text-decoration: underline;
 }
