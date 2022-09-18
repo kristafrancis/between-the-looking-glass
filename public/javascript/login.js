@@ -13,7 +13,7 @@ async function loginFormHandler(event) {
                 username,
                 password
             }),
-            headers: {'Content-Type': 'application/json'}
+            headers: {'Content-Type': 'application/json'},
         });    
         if (response.ok) {
             //redirect to dash with uersid
@@ -26,5 +26,7 @@ async function loginFormHandler(event) {
     }
   };
   
+
   document.querySelector('.login-form').addEventListener('submit', loginFormHandler);
   document.querySelector('.signup-form').addEventListener('submit', signupFormHandler);
+
