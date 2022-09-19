@@ -29,17 +29,18 @@
         <span class="navbar-btns">
             <span id="homepage-btn"><i class="fa fa-home"></i><a href="/homepage"> Homepage</a></span>
             <span id="glossary-btn"><i class="fa fa-home"></i><a href="/glossary"> Glossary</a></span>
-            <span id="blog-btn"><i class="fa fa-home"></i><a href="/post"> Blog</a></span>
+    
   
   
   
                {{#if loggedIn}}
-              <a id="dashboard" href="/dashboard">Dashboard</a>
-              <button id="logout" class="btn-no-style">Logout</button>
+              <span id="blog-btn"><i class="fa fa-home"></i><a href="/post"></a> <a id="dashboard" href="/dashboard">Dashboard</a></span>
+              <button id="logout" class="btn btn-primary">Logout</button>
               {{else}}
               </br>
               </br>
-              <button id="login btn" class="btn-primary">Login</button>
+              <span id="login"><a href="/login"></a></span>
+              <button id="login-btn" class="btn-primary">Login</button>
               <a href="/login"></a>
               
               {{/if}}
@@ -49,12 +50,17 @@
     <!--Our app title and the slogan underneath, maybe we put ome sort of icon next to or after the title where the dots are.../-->
 
       <h1 class="display-3">Between the looking glass...</h1>
-      <!--Slogan goes here and will be rendered under ^ -->
+       <!--Slogan goes here and will be rendered under ^ -->
       <p class="slogan"></p>
+      <br>
+  
+        <h2>Please login to go to the dashboard...</h2>
+      
   
   </br>
   
   </header>
+
 
   <main>
     {{{ body }}}
@@ -62,8 +68,12 @@
   </main>
 
   {{#if loggedIn}}
-  <script src="javascript\logout.js"></script>
+  <script src="javascript/logout.js"></script>
+    
   {{/if}}
+
+
+  
 
 </body>
 
