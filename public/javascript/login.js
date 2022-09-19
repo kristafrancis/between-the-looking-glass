@@ -21,7 +21,7 @@ function loginFormHandler(event) {
         }).then(response => {
             
             if (response.ok) {
-                //redirect to dash with uersid
+                //redirect to dash with usersid
                 document.location.replace('/dashboard');
        
             } else {
@@ -66,6 +66,6 @@ function signupFormHandler(event) {
   };
   
 
-  document.querySelector('.login-form').addEventListener('submit', loginFormHandler);
-   document.querySelector('.signup-form').addEventListener('submit', signupFormHandler);
+  document.querySelector('.login-form').addEventListener('click', loginFormHandler);
+   document.querySelector('.signup-form').addEventListener('click', signupFormHandler);
   

@@ -27,20 +27,23 @@
       <nav class="navbar">
         <div class="container">
         <span class="navbar-btns">
-            <span id="homepage-btn"><i class="fa fa-home"></i><a href="/homepage"> Homepage</a></span>
+            <span id="homepage-btn"><i class="fa fa-home"></i><a href="/"> Homepage</a></span>
             <span id="glossary-btn"><i class="fa fa-home"></i><a href="/glossary"> Glossary</a></span>
-    
+            <span id="dashboard-btn"><i class="fa fa-home"></i><a href="/dashboard"> Dashboard</a></span>
+
   
   
   
                {{#if loggedIn}}
-              <span id="blog-btn"><i class="fa fa-home"></i><a href="/post"></a> <a id="dashboard" href="/dashboard">Dashboard</a></span>
               <button id="logout" class="btn btn-primary">Logout</button>
               {{else}}
               </br>
               </br>
-              <span id="login"><a href="/dashboard"></a></span>
-              <button id="login-btn" class="btn-primary">Login</button>
+              <span id="login">
+              <a href="/login">Login</a></span>
+              
+
+
               {{!-- <a href="/login"></a> --}}
               
               {{/if}}
@@ -69,7 +72,6 @@
 
   {{#if loggedIn}}
   <script src="javascript/logout.js"></script>
-    
   {{/if}}
 
 

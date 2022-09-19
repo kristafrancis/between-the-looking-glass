@@ -5,18 +5,14 @@ async function signupFormHandler(event) {
     const password = document.querySelector('#password-signup').value.trim();
   
     //Fix parseINT before anything else
-    
-    const member_click = parseInt(event.target.id.login);
-    //console.log(member_click);
   
-    if (username && password && member_click) {
+    if (username && password && ) {
         // POST new user
         const response = await fetch('/api/users', {
             method: 'post',
             body: JSON.stringify({
                 username,
                 password,
-                member_click
             }),
             headers: {'Content-Type': 'application/json'}
         });
@@ -25,7 +21,7 @@ async function signupFormHandler(event) {
               //displayModal();
               newAcctModal.style.display = "block";
               let displayModal = setTimeout(() => {
-                  document.location.replace('dashboard');
+                  document.location.replace('/dashboard');
                   }, 2000)
             //redirect to dash with current userid
 
