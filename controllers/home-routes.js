@@ -105,4 +105,8 @@ router.get("/login", (req, res) => {
   res.render("login");
 });
 
+router.get("/glossary", (req, res) => {
+res.render("glossary");
+});
+
 module.exports = router;
