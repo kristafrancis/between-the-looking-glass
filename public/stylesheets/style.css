@@ -3,7 +3,7 @@
 #homepage-btn, #glossary-btn, #post-id {
 
     margin: 75px;
-    align-items: center;
+    align-items: right;
     
 
 }  
@@ -12,18 +12,18 @@
 #logout {
     padding: 3px;
     margin: 50px;
-    float: right;
+    float: center;
 }
-#login-btn {
+/* #login-btn {
 
 padding: 3px;
     margin: 50px;
-    float: right;
+  
 }
 
-/* .card {
+/* .card { */
     
-} */
+*/
 .post-header {
     text-align: center;
     text-decoration: underline;

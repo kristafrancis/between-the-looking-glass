@@ -1,7 +1,7 @@
- <link rel="stylesheet" href="/stylesheets/style.css">
+ {{!-- <link rel="stylesheet" href="/stylesheets/style.css">
 <link
       rel="stylesheet"
-      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"/>
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"/> --}}
 
 
 <div class="home"> 
@@ -18,7 +18,7 @@
 <ol class="post-list">
   {{#each posts as |post|}}
   <li>
-    {{> blog-post-info post }}
+    {{> post-info post }}
   </li>
   {{/each}}
 </ol>
