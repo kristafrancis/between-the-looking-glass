@@ -1,7 +1,28 @@
 # Between-The-Looking-Glass
 
 ## Description
+Between the Looking Glass is going to self-serve as a stand-alone full stack 
+application that allows jr. developers, a place to feel at home. We called it 
+Between the Looking Glass because that is exactly what the application will 
+serve as in several ways. A looking glass into new opportunities available to 
+all.  </br>
 
+First, the site will serve as a resource. The site will provide the users an 
+extraordinary amount of information by providing them with programming 
+topics, coding basics, and a glossary of useful terms every coder should know
+and understand.  </br> 
+
+Second, the site seeks to engage its users by creating a sense of community. 
+The site will allow for comments and responses, or even up-voting certain 
+discussions. The hopes for these features are to actively engage the user-
+base as a collective of knowledge to facilitate learning.  </br>
+
+Finally, the site aims to provide as a catch-all by providing recent articles and
+news updates for everything happening around the industry. This may come 
+in the form of new job openings, breaking news, etc...
+To summarize, we hope Between the Looking Glass provides the users a one-
+stop-shop for gathering all the information they would need to be 
+continuously engaged in their passion at hand!  </br>
 
 ## Table of Contents
   * [Installation](#installation)
@@ -31,6 +52,13 @@ https://nodejs.org/en/download/package-manager/
 
 ## Questions
 
+For any and all questions, don't hesitate to reach out to us via GitHub or by emailing us at:
+Krista - 
+Andrea - 
+Joshua - 
+Mike - 
+Anthony - 
+Julia - 
 
 ## Contributors
 Krista Francis, Joshua Ward, Michael Bishop, Andrea Jared, Julia Coronado, Anthony Winston
