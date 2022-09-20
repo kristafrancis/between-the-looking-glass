@@ -7,34 +7,33 @@ const withAuth = require("../../utils/auth");
 router.get("/", (req, res) => {
   console.log("======================");
   Post.findAll({
-    attributes: [
-      "id",
-      "post_url",
-      "title",
-      "created_at",
+    // attributes: [
+    //   "id",
+    //   "post_url",
+    //   "title",
+    //   "created_at",
     
-    ],
+    // ],
    
-    include: [
-      {
-        model: Comment,
-        attributes: ["id", "comment_text", "post_id", "user_id", "created_at"],
-        include: {
-          model: User,
-          attributes: ["username"],
-        }
-      },
-      {
-        model: User,
-        attributes: ["username"]
-      },
-    ]
-  })
-    .then((dbPostData => res.json(dbPostData))
+    // include: [
+    //   {
+    //     model: Comment,
+    //     attributes: ["id", "comment_text", "post_id", "user_id", "created_at"],
+    //     include: {
+    //       model: User,
+    //       attributes: ["username"],
+    //     }
+    //   },
+    //   {
+    //     model: User,
+    //     attributes: ["username"]
+    //   },
+    // ]
+  }).then((dbPostData) => res.json(dbPostData))
     .catch(err => {
       console.log(err);
       res.status(500).json(err);
-    }));
+    });
   });
 
 router.get("/:id", (req, res) => {
@@ -76,12 +75,13 @@ router.get("/:id", (req, res) => {
     });
 });
 
-router.post("/", withAuth, (req, res) => {
+router.post("/", (req, res) => {
   // expects {title: 'Taskmaster goes public!', post_url: 'https://taskmaster.com/press', user_id: 1}
   Post.create({
     title: req.body.title,
-    post_url: req.body.post_url,
+    // post_url: req.body.post_url,
     user_id: req.session.user_id,
+    text_body:req.body.text_body
   })
     .then((dbPostData) => res.json(dbPostData))
     .catch((err) => {
