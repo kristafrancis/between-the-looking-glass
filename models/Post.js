@@ -60,15 +60,15 @@ Post.init(
         allowNull: false,
         validate: {
           isURL: true,
-        },
+        }
       },
       user_id: {
         type: DataTypes.INTEGER,
         references: {
           model: "user",
-          key: "id",
-        },
-      },
+          key: "id"
+        }
+      }
     },
     {
       sequelize,
