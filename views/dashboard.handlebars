@@ -26,6 +26,36 @@
     </div>
     </section>
 
+
+<section>
+  <div class="container">
+    <div class="row">
+        <div class="col-8">
+            <div class="card">
+        
+  <h2 class="post-header">Your Posts:</h2>
+
+  
+  <ol>
+  <h3 class="blog-title">We want to render the title here</h3>
+    <li>
+      <p>
+        This is an example of a post. Itll display the body of of the post.
+      </p>
+      
+    </li>
+ 
+  </ol>
+            </div>
+        </div>
+    </div>
+  </div>
+</section>
+
+
+
+    
+
 {{#if posts.length}}
 <section>
   <div class="container">
@@ -35,10 +65,13 @@
         
   <h2 class="post-header">Your Posts</h2>
   <ol>
+    
     {{#each posts as |post|}}
     <li>
+      <p>
       {{> post-info post}}
       <a href="/dashboard/edit/{{post.id}}" class="edit-link">Edit post</a>
+      </p>
     </li>
     {{/each}}
   </ol>
