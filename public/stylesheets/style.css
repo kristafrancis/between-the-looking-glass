@@ -28,3 +28,11 @@ padding: 3px;
     text-align: center;
     text-decoration: underline;
 }
+
+li {
+    list-style: none;
+}
+
+.blog-title {
+    text-decoration: underline;
+}
