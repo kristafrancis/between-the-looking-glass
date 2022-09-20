@@ -21,7 +21,7 @@ function loginFormHandler(event) {
         }).then(response => {
             
             if (response.ok) {
-                //redirect to dash with usersid
+                //redirect to dash with user sid
                 document.location.replace('/dashboard');
        
             } else {
@@ -54,7 +54,7 @@ function signupFormHandler(event) {
         }).then(response => {
             alert (response.ok)
             // if (response.ok) {
-            //     //redirect to dash with uersid
+            //     //redirect to dash with users id
             //     document.location.replace('/dashboard');
        
             // } else {
