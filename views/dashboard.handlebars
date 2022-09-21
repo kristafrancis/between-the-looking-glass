@@ -1,21 +1,21 @@
 <section class = "container">
     <div class ="row">
-      
+
         <div class="card" style="width: 500px" >
             <div class="card-body">
     <h2 class = "card-title">Create New Post</h2>
-                
+
 
     <form class="new-post-form">
       <div>
-      
+
          <label for="post-title">Title</label>
         <input type="text" autofocus required id="post-title" name="post-title" />
  
       </div>
       <label for="post-url">Post:</label>
       <div>
-     
+
         <textarea type="text" cols="50" rows="7" maxlength="500" id="text-body" name="text-body"></textarea>
       </div>
      <p>Max-length:500 characters</p> 
@@ -32,20 +32,21 @@
     <div class="row">
         <div class="col-12">
             <div class="card">
-        
+
   <h2 class="post-header">Your Posts:</h2>
 
-  
+
   <ol>
   <h3 class="blog-title">We want to render the title here</h3>
     <li>
       <p>
         This is an example of a post. Itll display the body of of the post.
       </p>
-      
+
     </li>
+
  
-  </ol>
+  
             </div>
         </div>
     </div>
@@ -54,7 +55,7 @@
 
 
 
-    
+
 <h2 class="post-header">Your Posts</h2>
 {{#if posts.length}}
  {{#each posts as |post|}}
@@ -63,21 +64,26 @@
     <div class="row">
         <div class="col-12">
             <div class="card">
-        
+
  
   <ol> 
-  
+
     <li>
       <p>
-      {{!-- {{> post-info post}}
-      <a href="/dashboard/edit/--}}{{post.title}}
+      <h3 id="{{post.id}}"class="card-title">{{post.title}}</h3>
       </p>
     </li>
+    <button class="editBtn col-md-1">Edit 
+        </button>
+
     <li>
     <p>
     {{post.text_body}}
-    </p></li> 
-   
+    </p>
+    </li> 
+    <button class="editBtn-body col-md-1">Edit
+        </button>
+
   </ol>
             </div>
         </div>
@@ -88,3 +94,4 @@
 {{/if}}
 
 <script src="/javascript/add-post.js"></script>
+<script src="/javascript/edit-post.js"></script>
