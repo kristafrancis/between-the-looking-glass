@@ -37,6 +37,11 @@ li {
     text-decoration: underline;
 }
 
+
+.card-title {
+    background-color: lightgray;
+}
+
 body{
     background-image: url('https://i.pinimg.com/originals/00/49/59/00495943cdaa2d1c0fd66d608517a068.jpg');
     background-size: cover;
@@ -45,5 +50,6 @@ body{
     font-family: 'Numans', sans-serif;
     align-content: center;
     }
+
 
 
