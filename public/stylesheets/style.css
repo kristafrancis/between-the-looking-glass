@@ -32,6 +32,16 @@ padding: 3px;
 li {
     list-style: none;
 }
+h1 {
+    text-align: center;
+    text-decoration: underline;
+    color:goldenrod;
+    size: 100;
+}
+h2{
+    text-align: center;
+    color:greenyellow;
+}
 
 .blog-title {
     text-decoration: underline;
@@ -40,16 +50,19 @@ li {
 
 .card-title {
     background-color: transparent;
+    display: fixed;
+    align-content: center;
 }
 
 body{
     background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT-3XM1aLv90D01M6NfeDhNLNNwdCJAHMr8oA&usqp=CAU');
     background-size: cover;
     background-repeat: no-repeat;
-    height: 95%;
+    min-height: 95%;
     font-family: 'Numans', sans-serif;
     align-content: center;
     background-attachment: fixed;
+    flex-wrap: wrap;
     }
 
 
@@ -57,16 +70,32 @@ body{
 
 
 footer{
-    padding: 5px;
-    height: 50%;
     text-align: center;
-    display: absolute;
+    position: scroll;
+    bottom: 0;
+    padding: 0;
+    width: 100%;
+    height: 35px;
+    background-size: contain;
+    background-position: 10%;
+    background-size: auto;
+    color: rgb(209, 16, 199);
+    display: flex;
+    flex-wrap: wrap;
+    top: 0;
+   
     
 }
 
 new-post-form{
     text-align: center;
+    width: 100;
 }
+
+card-title{
+    text-align: center;
+}
+
 
 
 
