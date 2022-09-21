@@ -27,6 +27,6 @@ console.log(inputId, title, text_body)
     }
   }
 console.log(document.querySelector('.editBtn'))
-document.querySelector('#editForm').addEventListener('submit', editFormHandler);
-document.querySelector('.editBtn').addEventListener('click', editFormHandler);
-document.querySelector('.editBtn-body').addEventListener('click', editFormHandler);
+ document.querySelector('#editForm').addEventListener('submit', editFormHandler);
+ document.querySelector('.editBtn').addEventListener('click', editFormHandler);
+ document.querySelector('.editBtn-body').addEventListener('click', editFormHandler);
