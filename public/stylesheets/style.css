@@ -36,3 +36,7 @@ li {
 .blog-title {
     text-decoration: underline;
 }
+
+.card-title {
+    background-color: lightgray;
+}
