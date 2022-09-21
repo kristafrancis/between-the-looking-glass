@@ -39,11 +39,11 @@ li {
 
 
 .card-title {
-    background-color: lightgray;
+    background-color: transparent;
 }
 
 body{
-    background-image: url('https://images.fineartamerica.com/images/artworkimages/mediumlarge/2/through-the-looking-glass-allison-hutchins.jpg');
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT-3XM1aLv90D01M6NfeDhNLNNwdCJAHMr8oA&usqp=CAU');
     background-size: cover;
     background-repeat: no-repeat;
     height: 95%;
