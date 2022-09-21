@@ -103,11 +103,11 @@ router.post("/", (req, res) => {
 //    });
 //});
 //
-router.put("/:id", withAuth, (req, res) => {
+router.put("/:id", (req, res) => {
   Post.update(
     {
       title: req.body.title,
-      post_content: req.body.post_content
+      text_body:req.body.text_body
     },
     {
       where: {
