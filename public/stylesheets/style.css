@@ -32,6 +32,16 @@ padding: 3px;
 li {
     list-style: none;
 }
+.contact-me{
+    font-size: 150px;
+    font-weight: bold;
+}
+.navbar{
+    color:white;
+    background-color:purple;
+    text-align: center;
+    
+}
 h1 {
     text-align: center;
     text-decoration: underline;
