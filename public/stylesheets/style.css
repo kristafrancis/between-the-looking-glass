@@ -43,12 +43,13 @@ li {
 }
 
 body{
-    background-image: url('https://i.pinimg.com/originals/00/49/59/00495943cdaa2d1c0fd66d608517a068.jpg');
+    background-image: url('https://images.fineartamerica.com/images/artworkimages/mediumlarge/2/through-the-looking-glass-allison-hutchins.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     height: 95%;
     font-family: 'Numans', sans-serif;
     align-content: center;
+    background-attachment: fixed;
     }
 
 
@@ -59,6 +60,7 @@ footer{
     padding: 5px;
     height: 50%;
     text-align: center;
+    display: absolute;
     
 }
 
