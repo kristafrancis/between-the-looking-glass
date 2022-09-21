@@ -2,10 +2,10 @@ async function editFormHandler(event) {
     event.preventDefault();
     
   
-    const inputId = document.querySelector('input[name="post-id"]').value;
-    const title = document.querySelector('input[name="post-title"]').value;
+   const inputId = document.querySelector('input[name="post-id"]').value;
+   const title = document.querySelector('input[name="post-title"]').value;
    const text_body = document.querySelector('textarea[name=text-body').value;
-
+console.log(inputId, title, text_body)
     // const id = window.location.toString().split('/')[
     //   window.location.toString().split('/').length - 1
     // ]; console.log(id)
@@ -27,6 +27,6 @@ async function editFormHandler(event) {
     }
   }
 console.log(document.querySelector('.editBtn'))
-document.querySelector('.edit-post-form').addEventListener('submit', editFormHandler);
-  document.querySelector('.editBtn').addEventListener('click', editFormHandler);
-  document.querySelector('.editBtn-body').addEventListener('click', editFormHandler);
+document.querySelector('#editForm').addEventListener('submit', editFormHandler);
+document.querySelector('.editBtn').addEventListener('click', editFormHandler);
+document.querySelector('.editBtn-body').addEventListener('click', editFormHandler);
