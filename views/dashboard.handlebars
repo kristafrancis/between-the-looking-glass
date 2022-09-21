@@ -73,16 +73,17 @@
       <h3 id="{{post.id}}"class="card-title">{{post.title}}</h3>
       </p>
     </li>
-    <button class="editBtn col-md-1">Edit 
-        </button>
+    {{!-- <button class="editBtn col-md-1">Edit  --}}
+        {{!-- </button> --}}
 
     <li>
     <p>
     {{post.text_body}}
     </p>
     </li> 
-    <button class="editBtn-body col-md-1">Edit
+    <a href ="/dashboard/edit/{{post.id}}"> <button class="editBtn-body col-md-1">Edit
         </button>
+        </a>
 
   </ol>
             </div>
