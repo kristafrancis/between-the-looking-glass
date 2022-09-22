@@ -15,9 +15,9 @@
       </div>
       <label for="post-url">Post:</label>
       <div>
-
         <textarea type="text" cols="50" rows="7" maxlength="500" id="text-body" name="text-body"></textarea>
       </div>
+      
      <p>Max-length:500 characters</p> 
       <button type="submit" class="btn btn-success">Create</button>
     </form>
@@ -65,6 +65,12 @@
     <p>
     {{post.text_body}}
     </p>
+    <div>
+      {{#each post.comments as |comment|}}
+      <p>{{comment.user.username}}</p>
+      <p>{{comment.comment_text}}</p>
+      {{/each}}
+    </div>
     </li> 
     <a href ="/dashboard/edit/{{post.id}}"> <button class="editBtn-body col-md-1">Edit
         </button>
@@ -83,4 +89,3 @@
   </footer>
 
 <script src="/javascript/add-post.js"></script>
-<script src="/javascript/edit-post.js"></script>

@@ -9,6 +9,10 @@
       <span>({{ post.post_url}})</span>
     </div>
     <div>
+
+    <textarea type="text" cols="50" rows="7" maxlength="500" id="text-body" name="text-body" value="{{post.text_body}}">{{post.text_body}}</textarea>
+    </div>
+    <div>
     ON: {{format_date post.created_at}}
       |
       <a href="/post/{{post.title}}">{{post.text_body}} {{format_plural "comment" post.comments.length}}</a>
