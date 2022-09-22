@@ -39,6 +39,8 @@ https://nodejs.org/en/download/package-manager/
 
 ## Usage
 
+  * Access our deployed application at this URL: (https://dry-temple-13792.herokuapp.com/)
+
 
 ## Links
  
@@ -52,13 +54,8 @@ https://nodejs.org/en/download/package-manager/
 
 ## Questions
 
-For any and all questions, don't hesitate to reach out to us via GitHub or by emailing us at:
-Krista - 
-Andrea - 
-Joshua - 
-Mike - 
-Anthony - 
-Julia - 
+For any and all questions, don't hesitate to reach out to us via the links in the footer of our deployed application on the homepage.
+
 
 ## Contributors
 Krista Francis, Joshua Ward, Michael Bishop, Andrea Jared, Julia Coronado, Anthony Winston
