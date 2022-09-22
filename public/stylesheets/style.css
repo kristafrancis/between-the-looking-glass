@@ -13,20 +13,11 @@
     padding: 3px;
     margin: 50px;
     float: center;
-}
-/* #login-btn {
+} 
 
-padding: 3px;
-    margin: 50px;
-  
-}
-
-/* .card { */
-    
-*/
 .post-header {
     text-align: center;
-    text-decoration: underline;
+    justify-content: space-between;
 }
 
 li {
@@ -89,9 +80,9 @@ footer{
     text-align: center;
     position: scroll;
     bottom: 0;
-    padding: 0;
+    padding: 20;
     width: 100%;
-    height: 35px;
+    height: 55px;
     background-size: contain;
     background-position: 10%;
     background-size: auto;
@@ -117,6 +108,14 @@ card-title{
     font-size: large;
     
 }
+
+.comments {
+    color:rgb(209, 16, 199)
+}
+
+
+
+
 
 
 
