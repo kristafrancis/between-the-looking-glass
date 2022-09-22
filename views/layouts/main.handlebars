@@ -37,11 +37,10 @@
                {{#if loggedIn}}
               <button id="logout" class="btn btn-primary">Logout</button>
               {{else}}
-              </br>
-              </br>
               <span id="login">
+              <i class="fa fa-home"></i>
               <a href="/login">Login</a></span>
-              
+        
 
 
               {{!-- <a href="/login"></a> --}}
@@ -74,7 +73,7 @@
   </main>
 
   {{#if loggedIn}}
-  <script src="/public/javascript/logout.js"></script>
+  <script src="/javascript/logout.js"></script>
   {{/if}}
 
 

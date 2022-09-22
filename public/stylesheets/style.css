@@ -1,6 +1,6 @@
 /* Links*/
 
-#homepage-btn, #glossary-btn, #post-id {
+#homepage-btn, #glossary-btn, #post-id, #dashboard-btn, #login  {
 
     margin: 75px;
     align-items: right;
@@ -110,6 +110,12 @@ new-post-form{
 
 card-title{
     text-align: center;
+}
+
+.OL li {
+    color:white;
+    font-size: large;
+    
 }
 
 
