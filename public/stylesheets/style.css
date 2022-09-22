@@ -113,7 +113,9 @@ card-title{
 }
 
 .OL li {
-    color:white
+    color:white;
+    font-size: large;
+    
 }
 
 
