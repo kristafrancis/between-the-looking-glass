@@ -38,7 +38,6 @@ li {
 }
 .navbar{
     color:white;
-    background-color:purple;
     text-align: center;
     
 }
@@ -47,10 +46,12 @@ h1 {
     text-decoration: underline;
     color:goldenrod;
     size: 100;
+    
 }
 h2{
     text-align: center;
     color:greenyellow;
+    
 }
 
 .blog-title {
@@ -63,6 +64,11 @@ h2{
     display: fixed;
     align-content: center;
 }
+.jumbotron{
+    background-color:rgb(209, 16, 199);
+    padding:5px;
+}
+
 
 body{
     background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT-3XM1aLv90D01M6NfeDhNLNNwdCJAHMr8oA&usqp=CAU');
