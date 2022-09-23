@@ -30,6 +30,10 @@ continuously engaged in their passion at hand!  </br>
   * [Links](#links)
   * [Contributions](#contributions)
   * [Questions](#questions)
+
+## Screenshot of application
+
+![This is the working URL of our application](Screenshot.png)
   
   
 ## Installation
